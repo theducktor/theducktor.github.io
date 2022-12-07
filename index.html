@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FLBJ64LGWV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FLBJ64LGWV");
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://search.kazwire.com/index.css" />
+    <title>Get Instant Help 24/7!</title>
+  </head>
+  <body scroll="no" style="overflow: hidden">
+    <div href="" id="bookmark-prompt">
+      <div id="bookmark-prompt-text">
+        <p>Bookmark this page to access it quickly.</p>
+        <p>Click the <i class="fa fa-bookmark"></i> icon in your browser.</p>
+      </div>
+    </div>
+    <div id="navbar">
+      <a href="#">
+        <img
+          id="logo"
+          onclick="maximize()"
+          alt="On click this will maximize the browser."
+          src="https://search.kazwire.com/images/logo.png"
+        />
+      </a>
+      <form id="enter">
+        <input id="searchbar" placeholder="Search here" />
+      </form>
+      <label id="menu" class="btn" for="modal-1" type="checkbox">
+        <i id="button" class="fa fa-bars fa-5x"></i>
+      </label>
+    </div>
+
+    <input class="modal-state" id="modal-1" type="checkbox" />
+    <div class="modal">
+      <label class="modal__bg" for="modal-1"></label>
+      <div class="modal__inner">
+        <label class="modal__close" for="modal-1"></label>
+        <h2>Shortcuts and More!</h2>
+        <h4>Shortcuts</h4>
+        <li>
+          <a href="#" onclick="openURL('https://discord.com')">Discord</a>
+        </li>
+        <li>
+          <a href="#" onclick="openURL('https://play.geforcenow.com')"
+            >GeForce Now</a
+          >
+        </li>
+        <li>
+          <a href="#" onclick="openURL('https://www.youtube.com')">YouTube</a>
+        </li>
+        <h4>More</h4>
+        <li><a href="https://www.kazwire.com">Kazwire Merch</a></li>
+        <li>
+          <a href="#" onclick="openURL('https://discord.com/invite/5jKVKPtZSu')"
+            >Discord Support Server</a
+          >
+        </li>
+        <h4>Tips and Tricks:</h4>
+        <li>
+          You can press Control + B to open the current page in a private
+          about:blank page.
+        </li>
+        <li>You can press Control + Q to maximize the current page.</li>
+      </div>
+    </div>
+
+    <div id="browser-div">
+      <iframe id="browser"></iframe>
+    </div>
+    <script src="https://search.kazwire.com/uv/uv.bundle.js"></script>
+    <script src="https://search.kazwire.com/uv/uv.config.js"></script>
+    <script src="https://search.kazwire.com/register-uv.js"></script>
+    <script src="https://search.kazwire.com/index.js"></script>
+  </body>
+</html>
